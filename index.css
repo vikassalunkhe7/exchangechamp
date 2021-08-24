@@ -1,0 +1,188 @@
+/* Variables */
+:root {
+	--primary-color: #F95252;
+	--secondary-color: #B90973;
+	--success-color: #7DD88B;
+	--error-color: #FC6767;
+	--warning-color: #fb8c00;
+	--gray-color: #888;
+	--border-radius: 10px;
+	font-family: "Mitr", sans-serif;
+}
+.header__nav li.active a {
+     font-weight: bold;
+  /*  color: red;
+    -webkit-animation-name: glow;
+    animation-name: glow;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    text-transform: capitalize; */
+}
+.inp-box__max {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background: #27293d;
+    font-size: 14px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    margin-right: 5px;
+    font-family: 'Mitr' ,"sans-serif";
+}
+
+a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.main{
+    -webkit-animation-name: glow;
+    animation-name: glow;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+@keyframes glow{
+    0% {
+        text-shadow: 0px 0px 5px #fff, 0px 0px 5px #614ad3;
+    }
+    100% {
+        text-shadow: 0px 0px 20px #fff, 0px 0px 20px #614ad3;
+    }
+}
+
+
+textarea {
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+@charset "UTF-8";
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.col.d-flex.justify-content-center.text-center {
+    margin-top: 26px;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+.svg-inline--fa.fa-w-9 {
+    width: .5625em;
+    margin-bottom: 3px;
+}
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+.svg-inline--fa.fa-w-14 {
+    width: .875em;
+    margin-bottom: 3px;
+}
+
+
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}

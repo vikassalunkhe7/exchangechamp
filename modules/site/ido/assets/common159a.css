@@ -1,0 +1,56 @@
+/* Variables */
+:root {
+	--primary-color: #A036EE;
+	--secondary-color: #5A39BF;
+}
+
+.ido {}
+	.ido__list {}
+	.ido__title { text-align:center; font-size:24px; font-weight:700; }
+	.ido__subtitle { text-align:center; font-size:14px; max-width:400px; margin:0 auto; padding:20px 0 40px; }
+	.ido__statustabs { list-style:none; display:flex; justify-content:space-around; }
+		.ido__statustabs li { padding:18px 30px; font-size:15px; cursor:pointer; display:flex; align-items:center; }
+		.ido__statustabs li.active { color:var(--primary-color); }
+		.ido__statustabs span { margin-left:8px; }
+	.ido__items { margin:-15px 0 5px; }
+		.ido__items > * { margin:20px 0; }
+	.ido__item { border:1px solid rgba(0,0,0,0.1); border-radius:var(--border-radius); padding:20px; }
+	.ido__head { cursor:pointer; display:flex; align-items:center; }
+		.ido__head:after { content:""; background:url(images/arrow.svg); width:11px; height:6px; display:block; flex-shrink:0; margin-left:10px; transition:0.2s; }
+			.ido__head_open:after { transform:rotate(180deg); }
+	.ido__headw { display:flex; align-items:center; flex-grow:1; }
+	.ido__headl { flex-grow:1; padding-right:20px; }
+	.ido__desc { font-size:12px; color:#aaa; }
+	.ido__body { margin-top:10px; }
+	.ido__tabs { list-style:none; display:flex; border-bottom:1px solid #ddd; }
+		.ido__tabs li { font-size:15px; padding:8px 0; color:var(--primary-color); margin:0 20px -1px 0; cursor:pointer; }
+		.ido__tabs li.active { border-bottom:2px solid var(--primary-color); }
+	.ido__params { margin:15px 0 0; font-size:14px; }
+	.ido__tools { display:flex; margin:0 -10px; }
+		.ido__tools > * { flex-grow:1; margin:15px 10px 0; }
+	.ido__labes { list-style:none; }
+		.ido__labes li { margin:0 0 15px 0; background:rgba(90, 57, 191, 0.15); border-radius:var(--border-radius); padding:10px 15px; display:flex; }
+		.ido__labes img { flex-shrink:0; }
+		.ido__labes div { flex-grow:1; padding-left:15px; font-size:14px; }
+		.ido__labes b { display:block; font-size:16px; padding-top:2px; }
+	.ido__refl { border-bottom:1px solid rgba(0,0,0,0.1); padding:10px 0 15px; margin:0 0 15px 0; }
+		.ido__refl div { color:var(--primary-color); padding:0 0 2px 0; }
+		.ido__refl a { font-size:12px; color:#888; background:url(images/copy.svg) no-repeat center right; display:block; }
+	.ido__confirm { width:100%; margin-top:20px; }
+	.ido__rangeup { border-top:1px solid rgba(0,0,0,0.05); margin:15px 0 25px; }
+	.ido__range { height:10px; position:relative; background:#fff; border-radius:var(--border-radius); margin:10px 0; }
+	.ido__progress { height:10px; background:var(--primary-color); border-radius:var(--border-radius); }
+	.ido__point { position:absolute; left:0; top:0; width:20px; height:20px; background:linear-gradient(270deg, var(--primary-color) 0%, var(--secondary-color) 98.48%); border-radius:20px; margin:-5px 0 0 -10px; cursor:pointer; }
+	.ido__btns { display:flex; margin:20px -10px 0; }
+			.ido__btns.small { margin:15px -5px 0; }
+		.ido__btns > * { margin:0 10px; padding:7px 15px; flex:1 0; }
+			.ido__btns.small > * { margin:0 5px; padding:4px 8px; }
+	.ido__input .inp-box { background:rgba(90, 57, 191, 0.15); }
+	.ido__empty { margin:20px 0 0; border:1px solid rgba(0,0,0,0.1); border-radius:var(--border-radius); padding:15px 0; text-align:center; color:#D6DDE3; }
+	.ido__howtitle { font-weight:700; font-size:14px; margin:50px 0 20px; }
+	.ido__how { list-style:none; }
+		.ido__how li { display:flex; margin:0 0 30px 0; align-items:flex-start; }
+		.ido__how img { flex-shrink:0; }
+		.ido__how div { padding:0 0 0 15px; font-size:12px; font-weight:400; }
+		.ido__how span {}
+		.ido__how p { color:#888; padding:5px 0 0; }
